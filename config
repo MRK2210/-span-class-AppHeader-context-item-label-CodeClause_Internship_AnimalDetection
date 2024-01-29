@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[user]
+	name = barathkumarking
+[remote "origin"]
+	url = https://github.com/barathkumarking/Detecto
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[lfs "https://github.com/barathkumarking/Detecto.git/info/lfs"]
+	access = basic
+[remote "heroku"]
+	url = https://git.heroku.com/animaldetection.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+[lfs "https://git.heroku.com/animaldetection.git/info/lfs"]
+	locksverify = false
